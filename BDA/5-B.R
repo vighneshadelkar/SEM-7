@@ -11,4 +11,5 @@ print(subset)
 subset_2<-data[data$Subject<3 & data$Class==2,]
 print(subset_2)
 
-boxplot(subset)
+
+barplot(as.matrix(data),beside=TRUE,col=rainbow(5))
