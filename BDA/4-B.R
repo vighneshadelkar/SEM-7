@@ -1,3 +1,6 @@
+# (B) The following table shows the number of units of different products sold on different days:
+# Create five sample numeric vectors from this data visualize data using R.
+
 bread<-c(12,3,4,11,9)
 milk<-c(71,27,18,20,15)
 cola<-c(10,1,33,6,12)
