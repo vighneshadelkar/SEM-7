@@ -1,3 +1,5 @@
+# 1-6 have the same code just change the independent variable i.e (x) field
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
