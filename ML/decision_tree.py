@@ -15,7 +15,7 @@ model = DecisionTreeClassifier(criterion='entropy', max_depth=4, min_samples_spl
 model.fit(X_train, y_train)
 
 # 4. Make predictions on the test set
-y_pred_test_decsion = model.predict(X_test)
+y_pred_test = model.predict(X_test)
 
 print(y_pred_test)
 # 5. Evaluate the model
